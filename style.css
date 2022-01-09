@@ -1,0 +1,237 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* CSS Document */
+/*------------------------------All Document---------------------------*/
+.light-mode {
+	background-image: url("Light.JPG")!important;
+}
+.light-mode p{
+	color: #262626;
+}
+.light-mode p a {
+	color: #123045;
+}
+.light-mode p a:hover {
+	color: #001670;
+}
+.light-mode h1 {
+	color: #262626;
+}
+.light-mode #example {
+	color: #262626;
+}
+.light-mode nav ul{
+	background-color: #8EC9E5;
+}
+.light-mode button {
+	background-color: #111111;
+	color: white;
+}
+.light-mode footer {
+	background-color: #45ABDC;
+}
+/*------------------------------Header---------------------------*/
+.header {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	align-content: center;
+	font-family: 'Fredoka One', cursive;
+	color:#9f94db;
+	width: 75%;
+}
+
+#head-img {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding: 1em;
+	align-content: center;
+	width: 15%;
+	filter: drop-shadow(0px 0px 20px black);
+	
+}
+p {
+	font-family: 'Fredoka One', cursive;
+	text-align: justify;
+	font-size: 16px;
+}
+p a {
+	text-decoration: none;
+	color:#9f94db;
+}
+p a:hover {
+    color: white;
+}
+button {
+	background-color: #DDDDDD;
+	font-family: 'Fredoka One', cursive;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	
+}
+/*------------------------------Container---------------------------*/
+
+.container {
+	background-image: url("IMG_3186.JPG");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	width: 100%;
+	margin: 0 auto !important; 
+	float: none !important; 
+	position: absolute;
+}
+.left {
+    float: left;
+    width: 15%;
+	position: relative;
+}
+
+.mid {
+    float: left;
+    width: 70%;
+	position: relative;
+}
+
+.right {
+    float: left;
+    width: 15%;
+	position: relative;
+}
+.clear {
+	clear: both;
+}
+
+
+/*------------------------------Navigation---------------------------*/
+nav ul {
+	list-style: none; 
+	background-color: #120525; 
+	text-align: center; 
+	padding: 0; 
+	justify-content: center;
+	margin: auto;	
+	z-index: 10; 
+	width: 95%;
+	list-style-type:none;
+	border-radius: 10px;
+}
+	
+nav ul li {
+	line-height: 30px; 
+	height: 60px; 
+	width: 100%;
+	
+}
+		
+nav ul li a {
+	font-size:20px;
+	font-family: 'Fredoka One', cursive;
+	display:block;
+	padding: 0px 5px;
+	color: #FFFFFF;
+	text-decoration:none;
+	text-align: center;
+	}
+	
+nav ul li a:hover {
+	background-color: #9f94db;
+}
+	
+nav ul li ul {
+	display:none;
+	width: inherit;
+		
+}
+	
+nav ul li:hover ul {
+	display:block;
+	width:inherit;
+		
+}
+		
+nav ul li ul li {
+	display: block;
+}
+/*------------------------------Graded Practice---------------------------*/
+.column {
+	float: left;
+	width: 100%;
+	padding: 10px;
+	font-size:15px;
+	font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	border-radius: 10px;
+	
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-img {
+	width: 100%;
+}
+
+.project:hover {
+	color: #7668CD;
+	
+}
+.right, .left {
+	padding-top: 10px;
+}
+
+
+/*------------------------------Footer---------------------------*/
+footer {
+	align-content: center;
+	background-color: #7b6993;
+	padding: 5px 0;	
+}
+footer p {
+	color: white;
+	font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+}
+
+footer p a:hover {
+	color: hsla(29,63%,55%,1.00)
+}
+footer p a {
+	color: white;
+}
+
+
+/*------------------------------Media---------------------------*/
+@media (max-width: 545px) {
+	
+	nav ul li a, p{
+		font-size: 12px;
+	}
+}
+@media (max-width: 768px) and (min-width: 545px) {
+	
+	nav ul li a, p{
+		font-size: 14px;
+	}
+	
+	button {
+		padding: 10px 22px;
+		font-size: 12px;
+	}
+}

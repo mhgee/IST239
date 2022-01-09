@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+	<!--<link rel="stylesheet" href="style.css">-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	<style>
+	
+/* CSS Document */
+/*------------------------------All Document---------------------------*/
+.light-mode {
+	background-image: url("Light.JPG")!important;
+}
+.light-mode p{
+	color: #262626;
+}
+.light-mode p a {
+	color: #123045;
+}
+.light-mode p a:hover {
+	color: #001670;
+}
+.light-mode h1 {
+	color: #262626;
+}
+.light-mode #example {
+	color: #262626;
+}
+.light-mode nav ul{
+	background-color: #8EC9E5;
+}
+.light-mode button {
+	background-color: #111111;
+	color: white;
+}
+.light-mode footer {
+	background-color: #45ABDC;
+}
+/*------------------------------Header---------------------------*/
+.header {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	align-content: center;
+	font-family: 'Fredoka One', cursive;
+	color:#9f94db;
+	width: 75%;
+}
+
+#head-img {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding: 1em;
+	align-content: center;
+	width: 15%;
+	filter: drop-shadow(0px 0px 20px black);
+	
+}
+p {
+	font-family: 'Fredoka One', cursive;
+	text-align: justify;
+	font-size: 16px;
+}
+p a {
+	text-decoration: none;
+	color:#9f94db;
+}
+p a:hover {
+    color: white;
+}
+button {
+	background-color: #DDDDDD;
+	font-family: 'Fredoka One', cursive;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	
+}
+/*------------------------------Container---------------------------*/
+
+.container {
+	background-image: url("IMG_3186.JPG");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	width: 100%;
+	margin: 0 auto !important; 
+	float: none !important; 
+	position: absolute;
+}
+.left {
+    float: left;
+    width: 15%;
+	position: relative;
+}
+
+.mid {
+    float: left;
+    width: 70%;
+	position: relative;
+}
+
+.right {
+    float: left;
+    width: 15%;
+	position: relative;
+}
+.clear {
+	clear: both;
+}
+
+
+/*------------------------------Navigation---------------------------*/
+nav ul {
+	list-style: none; 
+	background-color: #120525; 
+	text-align: center; 
+	padding: 0; 
+	justify-content: center;
+	margin: auto;	
+	z-index: 10; 
+	width: 95%;
+	list-style-type:none;
+	border-radius: 10px;
+}
+	
+nav ul li {
+	line-height: 30px; 
+	height: 60px; 
+	width: 100%;
+	
+}
+		
+nav ul li a {
+	font-size:20px;
+	font-family: 'Fredoka One', cursive;
+	display:block;
+	padding: 0px 5px;
+	color: #FFFFFF;
+	text-decoration:none;
+	text-align: center;
+	}
+	
+nav ul li a:hover {
+	background-color: #9f94db;
+}
+	
+nav ul li ul {
+	display:none;
+	width: inherit;
+		
+}
+	
+nav ul li:hover ul {
+	display:block;
+	width:inherit;
+		
+}
+		
+nav ul li ul li {
+	display: block;
+}
+/*------------------------------Graded Practice---------------------------*/
+.column {
+	float: left;
+	width: 100%;
+	padding: 10px;
+	font-size:15px;
+	font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	border-radius: 10px;
+	
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-img {
+	width: 100%;
+}
+
+.project:hover {
+	color: #7668CD;
+	
+}
+.right, .left {
+	padding-top: 10px;
+}
+
+
+/*------------------------------Footer---------------------------*/
+footer {
+	align-content: center;
+	background-color: #7b6993;
+	padding: 5px 0;	
+}
+footer p {
+	color: white;
+	font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+}
+
+footer p a:hover {
+	color: hsla(29,63%,55%,1.00)
+}
+footer p a {
+	color: white;
+}
+
+
+/*------------------------------Media---------------------------*/
+@media (max-width: 545px) {
+	
+	nav ul li a, p{
+		font-size: 12px;
+	}
+}
+@media (max-width: 768px) and (min-width: 545px) {
+	
+	nav ul li a, p{
+		font-size: 14px;
+	}
+	
+	button {
+		padding: 10px 22px;
+		font-size: 12px;
+	}
+}
+
+	</style>
+</head>
+
+<body class="container">
+	<header> 
+	<img src="01.branches.jpg" alt="Michelle in a tree"  id="head-img" >
+	<h1 class="header"> Michelle Gee </h1>
+		<p class="header"> e-mail: &nbsp;<a href="mailto:ygeem@my.gvltec.edu"> ygeem@my.gvltec.edu</a></p>
+
+	</header>
+	<div class="left">
+	<nav>
+	   <ul>
+        <li><a href="Index.html">Home</a></li>
+       	<li><a>Hands-On Projects</a>
+				<ul> 
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject1-1/" target="_blank">1-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject1-3/" target="_blank">1-3</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject1-5/" target="_blank">1-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject2-1/" target="_blank">2-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject2-3/" target="_blank">2-3</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject2-5/" target="_blank">2-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject3-1/" target="_blank">3-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject3-3/" target="_blank">3-3</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject3-5/" target="_blank">3-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject4-1/tractor.htm" target="_blank">4-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject4-3/" target="_blank">4-3</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject4-5/" target="_blank">4-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject5-1/" target="_blank">5-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject5-3/" target="_blank">5-3</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject5-5/" target="_blank">5-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject6-1/" target="_blank">6-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject6-3/" target="_blank">6-3</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject6-5/" target="_blank">6-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject7-1/" target="_blank">7-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject7-3/" target="_blank">7-3</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject7-5/" target="_blank">7-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject8-1/" target="_blank">8-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject8-3/" target="_blank">8-3</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject8-5/" target="_blank">8-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject9-1/" target="_blank">9-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject9-3/" target="_blank">9-3</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject9-5/" target="_blank">9-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject10-1/" target="_blank">10-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject11-5/address.htm" target="_blank">11-5</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject12-1/" target="_blank">12-1</a></li>
+				<li><a href="http://ist239mgee.atwebpages.com/HandsOnProject12-3/" target="_blank">12-3</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	</div>
+<div class="mid">
+	<div class="row">
+		<div class="column">
+			<a href="http://ist239mgee.atwebpages.com/chapter1/index.html" target="_blank"><img src="1.JPG" alt="Chapter 1 Hands-On Project"  class="col-img" id="1"></a>
+				<p> In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject1-1/" target="_blank">Project 1-1</a> I used the document.write() statement to add financial planning tips to a web page.</p>
+				<p> In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject1-3/" target="_blank">Project 1-3</a> I created an alert box for when the user clicks the submit button.</p>
+				<p> In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject1-5/" target="_blank">Project 1-5</a> I fixed up errors in JavaScript code so that it ran correctly. </p>
+		</div>
+		<div class="column">
+			<a href="http://ist239mgee.atwebpages.com/chapter2/index.html" target="_blank"><img src="2.JPG" alt="Chapter23 Hands-On Project"  class="col-img" id="2"></a>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject2-1/" target="_blank">Project 2-1</a> I created code that would calculate the degree celsius to the equivalent fahrenheit. </p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject2-3/" target="_blank">Project 2-3</a> I created code that displayed an alert box that had a different message that corresponded with the element the user clicked.</p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject2-5/" target="_blank">Project 2-5</a> I created code  to calculate the order total, using both floating point numbers and integers. </p>
+		</div>
+		<div class="column">
+			<a href="http://ist239mgee.atwebpages.com/chapter3/index.html" target="_blank"><img src="3.JPG" alt="Chapter 3 Hands-On Project"  class="col-img" id="3"></a>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject3-1/" target="_blank">Project 3-1</a> I utilized the <i>if</i> and <i>for</i> statements in order to find the price total for the items selected.</p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject3-3/" target="_blank">Project 3-3</a> I created an array and code that could list the items of that array on  the web page. </p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject3-5/" target="_blank">Project 3-5</a> I created code  to calculate the order total, using both floating point numbers and integers.</p>
+		</div>
+	</div>
+	<div class="row">
+	  <div class="column">
+			 <a href="http://ist239mgee.atwebpages.com/chapter4/index.html" target="_blank"><img src="4.JPG" alt="Chapter 4 Hands-On Project"  class="col-img" id="4"></a>
+			 	<p>In <a class="project" href="http://ist239mgee.atwebpages.com/chapter4/HandsOnProject4-1/tractor.htm" target="_blank">Project 4-1</a> I created code that flags an error message if the user removes checkmarks from all of the crop boxes.</p>
+		<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject4-3/" target="_blank">Project 4-3</a> I debugged an existing file in order to allow the array to properly list out the user's five inputs. </p>
+			  <p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject4-5/" target="_blank">Project 4-5</a> I debugged code that was meant to convert distances in mile to kilometers.&nbsp; &nbsp;&nbsp; </p>
+		</div>
+	  <div class="column">
+			 <a href="http://ist239mgee.atwebpages.com/chapter5/index.html" target="_blank"><img src="5.JPG" alt="Chapter 5 Hands-On Project"  class="col-img" id="5"></a>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject5-1/" target="_blank">Project 5-1</a> I created an app that prints information from a browser's Navigator object onto the screen. This information shows the web browser name, web browser version, the operating platform, and the user agent. </p>
+		<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject5-3/" target="_blank">Project 5-3</a> I created code that causes an alert window to pop up upon form submission, but then close the alert window after 5 seconds.</p>
+			  <p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject5-5/" target="_blank">Project 5-5</a> I created a reference document that creted a tabl;e of contents for the document. This allows the user to jump around to different sections of a document.</p>
+		</div>
+		<div class="column">
+			<a href="http://ist239mgee.atwebpages.com/chapter6/index.html" target="_blank"><img src="6.JPG" alt="Chapter 6 Hands-On Project"  class="col-img" id="6"></a>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject6-1/" target="_blank">Project 6-1</a> I created validation functions, that work on all browsers, for an information form.</p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject6-3/" target="_blank">Project 6-3</a> I created code that moves the user to the next box upon "completion" (filling in the correct amount of numbers needed) of the component.</p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject6-5/" target="_blank">Project 6-5</a> I created code that validates the information that is being put into the form, which insures all neccessary fields of the form have been completed.</p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="column">
+			<a href="http://ist239mgee.atwebpages.com/chapter7/index.html" target="_blank"><img src="7.JPG" alt="Chapter 7 Hands-On Project"  class="col-img" id="7"></a>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject7-1/" target="_blank">Project 7-1</a> I created code that calculates the square root of the number input by the user. </p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject7-3/" target="_blank">Project 7-3</a> I created code that calculates an orders total, based off of what items the user selects. This total also includes the tax. </p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject7-5/" target="_blank">Project 7-5</a> I created code that shows an order summary based on the delivery information and order information, which was input by the user.</p>
+			</div>
+		<div class="column">
+			 <a href="http://ist239mgee.atwebpages.com/chapter8/index.html" target="_blank"><img src="8.JPG" alt="Chapter 8 Hands-On Project"  class="col-img" id="8"></a>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject8-1/" target="_blank">Project 8-1</a> I created a form that assigns a user ID based on the information that the user input. That information is then put into an array.</p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject8-3/" target="_blank">Project 8-3</a> I created code that identifies the card type based on the number rule put in place by the card companies. </p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject8-5/" target="_blank">Project 8-5</a> I created code that shows the items of the user's to do list. Additionally the user can change whether an item is positioned first or last in line. </p>
+			</div>
+		<div class="column">
+			 <a href="http://ist239mgee.atwebpages.com/chapter9/index.html" target="_blank"><img src="9.JPG" alt="Chapter 9 Hands-On Project"  class="col-img" id="9"></a>
+			 	<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject9-1/" target="_blank">Project 9-1</a> I created a form that allows the user to create a greeting card based on the user input. It then shows the user what that message would look like on a second page.</p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject9-3/" target="_blank">Project 9-3</a> I created code that allows for a "remember me" option. This function will allow the user to remember their log in information. </p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject9-5/" target="_blank">Project 9-5</a> I expanded upon the previous project to utilize web storage via the sessionStorage property. This function replaces the cookie storage.  </p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<a href="http://ist239mgee.atwebpages.com/chapter10/index.html" target="_blank"><img src="10.JPG" alt="Chapter 10 Hands-On Project"  class="col-img" id="10"></a>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject10-1/" target="_blank">Project 10-1</a> I created a puzzle that is completed by dragging tiles to form the picture. This was completed using touch events.</p>
+		</div>
+		<div class="column">
+			 <a href="http://ist239mgee.atwebpages.com/chapter11/index.html" target="_blank"><img src="11.JPG" alt="Chapter 11 Hands-On Project"  class="col-img" id="11"></a>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject11-5/address.htm" target="_blank">Project 11-5</a> I created an address form that supports German postals codes, in addition to US postal codes.</p>
+		</div>
+		<div class="column">
+			 <a href="http://ist239mgee.atwebpages.com/chapter12/index.html" target="_blank"><img src="12.JPG" alt="Chapter 12 Hands-On Project"  class="col-img" id="12"></a>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject12-1/" target="_blank">Project 12-1</a> I utilized jQuery to create an element that displays a recipe's ingredients and instructions upon action from the user via click. </p>
+				<p>In <a class="project" href="http://ist239mgee.atwebpages.com/HandsOnProject12-3/" target="_blank">Project 12-3</a> I utilized jQuery to validate an existing form to ensure that all fields of the form have been completed. This allowed for cleaner lines of code. </p>
+		</div>
+	</div>
+</div>
+		<div class="right">
+			<button onclick="myFunction(); all_change() ">Toggle light mode</button>
+		</div>
+
+
+	<div class="clear"></div>
+	<footer> 
+	<p> Created April 20, 2021 | IST 239 |  <a href="https://www.gvltec.edu/" target="_blank"> Greenville Technical College</a></p></footer>
+	<script>
+		
+		function myFunction() {
+			// Light mode
+			var element = document.body;
+			element.classList.toggle("light-mode");
+		}
+		// Chapter image toggle
+		function all_change() {
+			imageChange();
+		}
+		var image_tracker = 'dark';
+		
+		function imageChange() {
+		//Ch 1
+			var image1 = document.getElementById('1');
+			var image2 = document.getElementById('2');
+			var image3 = document.getElementById('3');
+			var image4 = document.getElementById('4');
+			var image5 = document.getElementById('5');
+			var image6 = document.getElementById('6');
+			var image7 = document.getElementById('7');
+			var image8 = document.getElementById('8');
+			var image9 = document.getElementById('9');
+			var image10 = document.getElementById('10');
+			var image11 = document.getElementById('11');
+			var image12 = document.getElementById('12');
+			if (image_tracker=='dark'){
+				image1.src='1a.JPG';
+				image_tracker='light';
+				image2.src='2a.JPG';
+				image_tracker='light';
+				image3.src='3a.JPG';
+				image_tracker='light';
+				image4.src='4a.JPG';
+				image_tracker='light';
+				image5.src='5a.JPG';
+				image_tracker='light';
+				image6.src='6a.JPG';
+				image_tracker='light';
+				image7.src='7a.JPG';
+				image_tracker='light';
+				image8.src='8a.JPG';
+				image_tracker='light';
+				image9.src='9a.JPG';
+				image_tracker='light';
+				image10.src='10a.JPG';
+				image_tracker='light';
+				image11.src='10a.JPG';
+				image_tracker='light';
+				image12.src='10a.JPG';
+				image_tracker='light';
+			}
+			else {
+				image1.src='1.JPG';
+				image2.src='2.JPG';
+				image3.src='3.JPG';
+				image4.src='4.JPG';
+				image5.src='5.JPG';
+				image6.src='6.JPG';
+				image7.src='7.JPG';
+				image8.src='8.JPG';
+				image9.src='9.JPG';
+				image10.src='10.JPG';
+				image11.src='11.JPG';
+				image12.src='12.JPG';
+				image_tracker='dark';
+			}
+		}	
+		
+</script>
+</body>
+
+</html>
